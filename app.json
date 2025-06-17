@@ -1,0 +1,18 @@
+
+{
+  "expo": {
+    "name": "7th Grade Maths Tutor App",
+    "slug": "7th-grade-maths-tutor-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "platforms": ["android"],
+    "sdkVersion": "50.0.0",
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "android": {
+      "package": "com.abibot.mathstutor"
+    }
+  }
+}
