@@ -5,6 +5,8 @@ workflows:
       node: 18
     scripts:
       - npm install -g expo-cli eas-cli
+      - rm -rf node_modules package-lock.json
+      - npm cache clean --force
       - npm install
       - eas build --platform android --non-interactive --profile preview
     artifacts:
